@@ -1,0 +1,82 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-1",
+      "description": "The School's DIY Hub robot mascot.",
+      "imageUrl": "https://i.imgur.com/nNxeayU.jpeg",
+      "imageHint": "robot logo"
+    },
+    {
+      "id": "project-1",
+      "description": "A homemade volcano science project erupting.",
+      "imageUrl": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzY2llbmNlJTIwZXhwZXJpbWVudHxlbnwwfHx8fDE3NjUwMzA0Njh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "science experiment"
+    },
+    {
+      "id": "project-2",
+      "description": "A small robot built from a kit.",
+      "imageUrl": "https://images.unsplash.com/photo-1705393928685-4dec061491dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyb2JvdCUyMGtpdHxlbnwwfHx8fDE3NjUwNTA0NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "robot kit"
+    },
+    {
+      "id": "project-3",
+      "description": "A diorama of the solar system made from styrofoam balls.",
+      "imageUrl": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzb2xhciUyMHN5c3RlbXxlbnwwfHx8fDE3NjUwNDQ4NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "solar system"
+    },
+    {
+      "id": "project-4",
+      "description": "A circuit board with glowing LEDs.",
+      "imageUrl": "https://images.unsplash.com/photo-1760433116983-76021bd32307?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxnbG93aW5nJTIwY2lyY3VpdHxlbnwwfHx8fDE3NjUwMjYxMjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "glowing circuit"
+    },
+    {
+      "id": "project-5",
+      "description": "A student painting a piece of pottery.",
+      "imageUrl": "https://images.unsplash.com/photo-1752649936829-3d55a34689a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzdHVkZW50JTIwcGFpbnRpbmd8ZW58MHx8fHwxNzY1MDUwNDcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student painting"
+    },
+    {
+      "id": "project-6",
+      "description": "Louis Da Vinic creator logo background.",
+      "imageUrl": "https://i.imgur.com/g0me2Xz.jpeg",
+      "imageHint": "innovator logo"
+    },
+    {
+      "id": "avatar-1",
+      "description": "Portrait of a smiling young woman.",
+      "imageUrl": "https://images.unsplash.com/photo-1614436201459-156d322d38c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzbWlsaW5nJTIwd29tYW58ZW58MHx8fHwxNzY0OTc0MDgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smiling woman"
+    },
+    {
+      "id": "avatar-2",
+      "description": "Passport photo of Louis Da Vinic.",
+      "imageUrl": "https://i.imgur.com/3Yay8aW.jpeg",
+      "imageHint": "portrait man"
+    },
+    {
+      "id": "avatar-3",
+      "description": "Portrait of a person concentrating on their work.",
+      "imageUrl": "https://images.unsplash.com/photo-1558220830-5dfdc83cdddc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwZXJzb24lMjBjb25jZW50cmF0aW5nfGVufDB8fHx8MTc2NTA1MDQ3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person concentrating"
+    },
+    {
+      "id": "material-1",
+      "description": "Colorful electronics wires and components.",
+      "imageUrl": "https://images.unsplash.com/photo-1701367976971-af3aa3b56984?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxlbGVjdHJvbmljcyUyMGNvbXBvbmVudHN8ZW58MHx8fHwxNzY1MDUwNDcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "electronics components"
+    },
+    {
+      "id": "material-2",
+      "description": "Assorted craft supplies like glue, scissors, and paper.",
+      "imageUrl": "https://images.unsplash.com/photo-1588014328132-874d4470df4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjcmFmdCUyMHN1cHBsaWVzfGVufDB8fHx8MTc2NTAyNzc0OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "craft supplies"
+    },
+    {
+      "id": "material-3",
+      "description": "Pieces of wood and woodworking tools.",
+      "imageUrl": "https://images.unsplash.com/photo-1685022515808-502c8a295c9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b29kd29ya2luZyUyMHRvb2xzfGVufDB8fHx8MTc2NTA1MDQ3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woodworking tools"
+    }
+  ]
+}
