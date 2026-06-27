@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Times New Roman', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-smoothing: grayscale;
+}
+
+@layer base {
+  :root {
+    --background: 220 40% 2%;
+    --foreground: 210 40% 98%;
+    --card: 220 40% 5%;
+    --card-foreground: 210 40% 98%;
+    --popover: 220 40% 3%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 100% 60%;
+    --primary-foreground: 210 100% 10%;
+    --secondary: 220 40% 20%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 220 40% 25%;
+    --muted-foreground: 210 40% 90%;
+    --accent: 170 100% 50%;
+    --accent-foreground: 170 100% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 40% 20%;
+    --input: 220 40% 15%;
+    --ring: 210 100% 60%;
+    --radius: 1rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  
+  /* ULTRAFAST Interaction Speed - Transitions set to 50ms for mechanical feel */
+  button, a {
+    @apply transition-transform duration-75 active:scale-95 select-none;
+  }
+
+  /* Improved Text Visibility */
+  h1, h2, h3, h4, .font-bold {
+    @apply text-white;
+  }
+}
+
+@keyframes pulse-red {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
+.animate-pulse-red {
+  animation: pulse-red 0.15s ease-in-out;
+}
+
+.glow-primary {
+  box-shadow: 0 0 15px hsl(var(--primary) / 0.3);
+}
+
+.glow-accent {
+  box-shadow: 0 0 15px hsl(var(--accent) / 0.3);
+}
+
+.font-headline {
+  letter-spacing: -0.05em;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.bg-glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
